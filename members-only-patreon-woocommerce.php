@@ -6,7 +6,7 @@ Description: Offer exclusive products in a WooCommerce Shop to your Patreon patr
 Version:0.2
 Author: Sam Killermann
 Author URI: https://samuelkillermann.com
-License URI: http://unlicense.org
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
 
@@ -203,6 +203,24 @@ function is_category_in_cart($category) {
 }
 
 add_action( 'woocommerce_check_cart_items', 'restrict_members_only_products_to_patrons' );
+
+/**
+ * Add plugin action links.
+ *
+ * Add a link to the settings page on the plugins.php page.
+ *
+ * @since 0.2
+ *
+ * @param  array  $links List of existing plugin action links.
+ * @return array         List of modified plugin action links.
+ */
+function mospw_action_links( $mospwActionLinks ) {
+	$mospwActionLinks = array_merge( array(
+		'<a href="' . esc_url( admin_url( 'admin.php?page=members-only-shop' ) ) . '">' . __( 'Settings', 'textdomain' ) . '</a>'
+	), $mospwActionLinks );
+	return $mospwActionLinks;
+}
+add_action( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'mospw_action_links' );
 
 // add_filter( 'body_class','add_patron_body_class' );
 //
