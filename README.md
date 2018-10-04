@@ -2,6 +2,8 @@
 
 Offer exclusive products in a WooCommerce Shop to your Patreon patrons.
 
+![Plugin Settings](https://github.com/killermann/Members-Only-Shop-for-Patreon-WooCommerce/blob/master/assets/screenshot-1.png)
+
 ## Description
 
 A plugin that bridges the gap between two others -- Patreon and WooCommerce -- to allow you to easily restrict a section of your WooCommerce store for your active Patrons.
@@ -41,9 +43,14 @@ Nope. You're on your own, friend.
 
 ## Screenshots
 
-1. Plugin settings (all optional) to configure once you install. The "Product Category Slug" is the category of your shop that's for Patreon members only.
-2. If someone adds a members-only product to the shopping cart (and isn't logged in with Patreon), they'll get this warning (output is standard WooCommerce notice, styled by whatever theme you're using).
-3. If they try to check out, WooCommerce will show this error instead of the checkout steps, and prevent them from continuing.
+![Plugin Settings](https://github.com/killermann/Members-Only-Shop-for-Patreon-WooCommerce/blob/master/assets/screenshot-1.png)
+Plugin settings (all optional) to configure once you install. The "Product Category Slug" is the category of your shop that's for Patreon members only.
+
+![Cart Error](https://github.com/killermann/Members-Only-Shop-for-Patreon-WooCommerce/blob/master/assets/screenshot-2.png)
+If someone adds a members-only product to the shopping cart (and isn't logged in with Patreon), they'll get this warning (output is standard WooCommerce notice, styled by whatever theme you're using).
+
+![Checkout Error](https://github.com/killermann/Members-Only-Shop-for-Patreon-WooCommerce/blob/master/assets/screenshot-1.png)
+If they try to check out, WooCommerce will show this error instead of the checkout steps, and prevent them from continuing.
 
 ## Changelog
 
