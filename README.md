@@ -43,14 +43,17 @@ Nope. You're on your own, friend.
 
 ## Screenshots
 
-![Plugin Settings](https://github.com/killermann/Members-Only-Shop-for-Patreon-WooCommerce/blob/master/assets/screenshot-1.png)
 Plugin settings (all optional) to configure once you install. The "Product Category Slug" is the category of your shop that's for Patreon members only.
 
-![Cart Error](https://github.com/killermann/Members-Only-Shop-for-Patreon-WooCommerce/blob/master/assets/screenshot-2.png)
+![Plugin Settings](https://github.com/killermann/Members-Only-Shop-for-Patreon-WooCommerce/blob/master/assets/screenshot-1.png)
+
 If someone adds a members-only product to the shopping cart (and isn't logged in with Patreon), they'll get this warning (output is standard WooCommerce notice, styled by whatever theme you're using).
 
-![Checkout Error](https://github.com/killermann/Members-Only-Shop-for-Patreon-WooCommerce/blob/master/assets/screenshot-1.png)
+![Cart Error](https://github.com/killermann/Members-Only-Shop-for-Patreon-WooCommerce/blob/master/assets/screenshot-2.png)
+
 If they try to check out, WooCommerce will show this error instead of the checkout steps, and prevent them from continuing.
+
+![Checkout Error](https://github.com/killermann/Members-Only-Shop-for-Patreon-WooCommerce/blob/master/assets/screenshot-3.png)
 
 ## Changelog
 
